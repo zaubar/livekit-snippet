@@ -9,8 +9,8 @@ Pass the chat context into the transition agent and invoke it
 using agent.say() we play the transition stream
 
 Everything works up till this point but afterwards no texts or stream from our main agent .
-Another problems we have , is simply hallucinated and duplicated texts
-A minimal version of this pipeline exists here , please feel free to look at it:
+- Another problems we have , is simply hallucinated and duplicated texts
+- When trying to load an assistant into livekit which has already a vectrstore attach to it , we continuesly get a refusal message from the assistant:"Sorry i cannot do that" 
 
 
 How should we address this?
